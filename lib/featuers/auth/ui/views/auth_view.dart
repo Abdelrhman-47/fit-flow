@@ -1,7 +1,7 @@
-import 'package:fit_flow/app_widgets.dart';
 import 'package:fit_flow/core/utils/app_color.dart';
 import 'package:fit_flow/featuers/auth/ui/widgets/auth_tab_switcher.dart';
 import 'package:fit_flow/featuers/auth/ui/widgets/fit_flow_logo.dart';
+import 'package:fit_flow/featuers/auth/ui/widgets/socila_login.dart';
 import 'package:flutter/material.dart';
 import '../widgets/login_page.dart';
 import '../widgets/signup_page.dart';

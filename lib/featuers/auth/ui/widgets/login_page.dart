@@ -1,6 +1,6 @@
-import 'package:fit_flow/app_widgets.dart';
 import 'package:fit_flow/core/utils/app_color.dart';
 import 'package:fit_flow/featuers/auth/ui/widgets/auth_button.dart';
+import 'package:fit_flow/featuers/auth/ui/widgets/auth_header.dart';
 import 'package:fit_flow/featuers/auth/ui/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 
