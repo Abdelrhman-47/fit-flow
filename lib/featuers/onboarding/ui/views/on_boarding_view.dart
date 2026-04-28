@@ -69,9 +69,9 @@ class _OnBoardingViewState extends State<OnBoardingView> {
               // ── Weekly Availability ───────────────────────
               Text('Weekly Availability',
                   style: AppTextStyles.heading3Dark.copyWith(fontSize: 18)),
-              const SizedBox(height: 14),
+              const SizedBox(height: 38),
               Wrap(
-                spacing: 10,
+                spacing: 16,
                 children: OnboardingData.availabilityOptions.map((option) {
                   return AvailabilityChip(
                     label: option,
@@ -81,14 +81,14 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                   );
                 }).toList(),
               ),
-              const SizedBox(height: 24),
+              const SizedBox(height: 58),
 
               // ── Recommendation ────────────────────────────
               RecommendationCard(
                 recommendation: OnboardingData.getRecommendation(
                     _selectedAvailability),
               ),
-              const SizedBox(height: 28),
+              const SizedBox(height: 170),
 
               // ── Continue button ───────────────────────────
               CustomOnboardingButton(
