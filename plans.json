@@ -1,0 +1,199 @@
+{
+  "plans": [
+    {
+      "id": "muscle_2_days",
+      "goal": "muscle",
+      "days_per_week": 2,
+      "title": "Build Muscle - 2 Days",
+      "days": [
+        {
+          "day": 1,
+          "name": "Upper Body",
+          "exercises": [
+            {"name": "Bench Press", "sets": 3, "reps": "8-12"},
+            {"name": "Pull Ups", "sets": 3, "reps": "6-10"},
+            {"name": "Shoulder Press", "sets": 3, "reps": "10-12"},
+            {"name": "Biceps Curl", "sets": 3, "reps": "10-15"}
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Lower Body",
+          "exercises": [
+            {"name": "Squat", "sets": 4, "reps": "8-10"},
+            {"name": "Lunges", "sets": 3, "reps": "10 each"},
+            {"name": "Leg Curl", "sets": 3, "reps": "12-15"},
+            {"name": "Calf Raises", "sets": 4, "reps": "15-20"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "muscle_3_days",
+      "goal": "muscle",
+      "days_per_week": 3,
+      "title": "Build Muscle - 3 Days",
+      "days": [
+        {
+          "day": 1,
+          "name": "Push",
+          "exercises": [
+            {"name": "Bench Press", "sets": 3, "reps": "8-12"},
+            {"name": "Incline Dumbbell Press", "sets": 3, "reps": "8-12"},
+            {"name": "Shoulder Press", "sets": 3, "reps": "10-12"},
+            {"name": "Triceps Pushdown", "sets": 3, "reps": "12-15"}
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Pull",
+          "exercises": [
+            {"name": "Pull Ups", "sets": 3, "reps": "6-10"},
+            {"name": "Barbell Row", "sets": 3, "reps": "8-12"},
+            {"name": "Face Pull", "sets": 3, "reps": "12-15"},
+            {"name": "Biceps Curl", "sets": 3, "reps": "10-12"}
+          ]
+        },
+        {
+          "day": 3,
+          "name": "Legs",
+          "exercises": [
+            {"name": "Squat", "sets": 4, "reps": "8-10"},
+            {"name": "Leg Press", "sets": 3, "reps": "10-12"},
+            {"name": "Hamstring Curl", "sets": 3, "reps": "12-15"},
+            {"name": "Calf Raises", "sets": 4, "reps": "15-20"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "muscle_4_days",
+      "goal": "muscle",
+      "days_per_week": 4,
+      "title": "Build Muscle - 4 Days",
+      "days": [
+        {"day": 1, "name": "Chest + Triceps", "exercises": [{"name": "Bench Press", "sets": 4, "reps": "8-10"}]},
+        {"day": 2, "name": "Back + Biceps", "exercises": [{"name": "Pull Ups", "sets": 4, "reps": "8-10"}]},
+        {"day": 3, "name": "Legs", "exercises": [{"name": "Squat", "sets": 4, "reps": "8-10"}]},
+        {"day": 4, "name": "Shoulders", "exercises": [{"name": "Shoulder Press", "sets": 4, "reps": "10-12"}]}
+      ]
+    },
+
+    {
+      "id": "muscle_5_days",
+      "goal": "muscle",
+      "days_per_week": 5,
+      "title": "Build Muscle - 5 Days",
+      "days": [
+        {"day": 1, "name": "Chest", "exercises": [{"name": "Bench Press", "sets": 4, "reps": "8-10"}]},
+        {"day": 2, "name": "Back", "exercises": [{"name": "Deadlift", "sets": 4, "reps": "5-8"}]},
+        {"day": 3, "name": "Legs", "exercises": [{"name": "Squat", "sets": 4, "reps": "8-10"}]},
+        {"day": 4, "name": "Shoulders", "exercises": [{"name": "Shoulder Press", "sets": 4, "reps": "10-12"}]},
+        {"day": 5, "name": "Arms", "exercises": [{"name": "Biceps Curl", "sets": 3, "reps": "10-12"}]}
+      ]
+    },
+
+    {
+      "id": "strong_2_days",
+      "goal": "strong",
+      "days_per_week": 2,
+      "title": "Strength - 2 Days",
+      "days": [
+        {"day": 1, "name": "Full Body", "exercises": [{"name": "Squat", "sets": 5, "reps": "5"}]},
+        {"day": 2, "name": "Full Body", "exercises": [{"name": "Deadlift", "sets": 5, "reps": "5"}]}
+      ]
+    },
+
+    {
+      "id": "strong_3_days",
+      "goal": "strong",
+      "days_per_week": 3,
+      "title": "Strength - 3 Days",
+      "days": [
+        {"day": 1, "name": "Squat Day", "exercises": [{"name": "Squat", "sets": 5, "reps": "5"}]},
+        {"day": 2, "name": "Bench Day", "exercises": [{"name": "Bench Press", "sets": 5, "reps": "5"}]},
+        {"day": 3, "name": "Deadlift Day", "exercises": [{"name": "Deadlift", "sets": 5, "reps": "5"}]}
+      ]
+    },
+
+    {
+      "id": "strong_4_days",
+      "goal": "strong",
+      "days_per_week": 4,
+      "title": "Strength - 4 Days",
+      "days": [
+        {"day": 1, "name": "Upper", "exercises": [{"name": "Bench Press", "sets": 5, "reps": "5"}]},
+        {"day": 2, "name": "Lower", "exercises": [{"name": "Squat", "sets": 5, "reps": "5"}]},
+        {"day": 3, "name": "Upper", "exercises": [{"name": "Pull Ups", "sets": 4, "reps": "6"}]},
+        {"day": 4, "name": "Lower", "exercises": [{"name": "Deadlift", "sets": 5, "reps": "5"}]}
+      ]
+    },
+
+    {
+      "id": "strong_5_days",
+      "goal": "strong",
+      "days_per_week": 5,
+      "title": "Strength - 5 Days",
+      "days": [
+        {"day": 1, "name": "Chest", "exercises": [{"name": "Bench Press", "sets": 5, "reps": "5"}]},
+        {"day": 2, "name": "Back", "exercises": [{"name": "Deadlift", "sets": 5, "reps": "5"}]},
+        {"day": 3, "name": "Legs", "exercises": [{"name": "Squat", "sets": 5, "reps": "5"}]},
+        {"day": 4, "name": "Shoulders", "exercises": [{"name": "Overhead Press", "sets": 5, "reps": "5"}]},
+        {"day": 5, "name": "Accessory", "exercises": [{"name": "Core Work", "sets": 3, "reps": "15"}]}
+      ]
+    },
+
+    {
+      "id": "fitness_2_days",
+      "goal": "fitness",
+      "days_per_week": 2,
+      "title": "General Fitness - 2 Days",
+      "days": [
+        {"day": 1, "name": "Full Body", "exercises": [{"name": "Push Ups", "sets": 3, "reps": "12"}]},
+        {"day": 2, "name": "Cardio + Core", "exercises": [{"name": "Running", "sets": 1, "reps": "20 min"}]}
+      ]
+    },
+
+    {
+      "id": "fitness_3_days",
+      "goal": "fitness",
+      "days_per_week": 3,
+      "title": "General Fitness - 3 Days",
+      "days": [
+        {"day": 1, "name": "Upper", "exercises": [{"name": "Push Ups", "sets": 3, "reps": "12"}]},
+        {"day": 2, "name": "Lower", "exercises": [{"name": "Squat", "sets": 3, "reps": "12"}]},
+        {"day": 3, "name": "Cardio", "exercises": [{"name": "Cycling", "sets": 1, "reps": "25 min"}]}
+      ]
+    },
+
+    {
+      "id": "fitness_4_days",
+      "goal": "fitness",
+      "days_per_week": 4,
+      "title": "General Fitness - 4 Days",
+      "days": [
+        {"day": 1, "name": "Upper", "exercises": [{"name": "Push Ups", "sets": 3, "reps": "12"}]},
+        {"day": 2, "name": "Lower", "exercises": [{"name": "Squat", "sets": 3, "reps": "12"}]},
+        {"day": 3, "name": "HIIT", "exercises": [{"name": "Burpees", "sets": 3, "reps": "15"}]},
+        {"day": 4, "name": "Core", "exercises": [{"name": "Plank", "sets": 3, "reps": "60 sec"}]}
+      ]
+    },
+
+    {
+      "id": "fitness_5_days",
+      "goal": "fitness",
+      "days_per_week": 5,
+      "title": "General Fitness - 5 Days",
+      "days": [
+        {"day": 1, "name": "Upper", "exercises": [{"name": "Push Ups", "sets": 3, "reps": "12"}]},
+        {"day": 2, "name": "Lower", "exercises": [{"name": "Squat", "sets": 3, "reps": "12"}]},
+        {"day": 3, "name": "Cardio", "exercises": [{"name": "Running", "sets": 1, "reps": "30 min"}]},
+        {"day": 4, "name": "Functional", "exercises": [{"name": "Kettlebell Swing", "sets": 3, "reps": "15"}]},
+        {"day": 5, "name": "Core", "exercises": [{"name": "Plank", "sets": 3, "reps": "60 sec"}]}
+      ]
+    }
+  ]
+}
+
