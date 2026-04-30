@@ -44,3 +44,9 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 /lib/firebase_options.dart
+/node_modules
+/plans.json
+/upload.js
+/serviceAccountKey.json
+/package-lock.json
+/package.json

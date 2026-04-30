@@ -35,6 +35,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       availability: _selectedAvailability,
     );
 
+    await PrefHelpers.setPlanId(planId);
+
     context.read<PlansCubit>().getPlanById(planId: planId);
   }
 

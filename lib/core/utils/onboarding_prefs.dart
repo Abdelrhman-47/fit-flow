@@ -28,4 +28,16 @@ class PrefHelpers {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_userDataKey, jsonEncode(data));
   }
+
+  static const String _planIdKey = 'selected_plan_id';
+
+  static Future<String?> getPlanId() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_planIdKey);
+  }
+
+  static Future<void> setPlanId(String planId) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_planIdKey, planId);
+  }
 }
