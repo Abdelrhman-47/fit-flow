@@ -33,6 +33,32 @@ android {
         versionName = flutter.versionName
     }
 
+    flavorDimensions += "app"
+
+    productFlavors {
+        create("dev") {
+            dimension = "app"
+            applicationId = "com.example.fit_flow.dev"
+            versionCode = (flutter.versionCode?.toString()?.toInt() ?: 1) + 100
+            versionName = "${flutter.versionName}-dev"
+        }
+        create("staging") {
+            dimension = "app"
+            applicationId = "com.example.fit_flow.staging"
+            versionCode = (flutter.versionCode?.toString()?.toInt() ?: 1) + 200
+            versionName = "${flutter.versionName}-staging"
+        }
+        create("prod") {
+            dimension = "app"
+            applicationId = "com.example.fit_flow"
+            versionCode = flutter.versionCode
+            versionName = flutter.versionName
+        }
+    }
+
+    // All flavors use the same google-services.json file (single Firebase project)
+    // Make sure your google-services.json includes all three package names as separate clients
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.

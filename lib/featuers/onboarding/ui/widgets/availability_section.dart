@@ -1,4 +1,4 @@
-import 'package:fit_flow/core/utils/app_text_style.dart';
+  import 'package:fit_flow/core/utils/app_text_style.dart';
 import 'package:fit_flow/featuers/onboarding/data/models/onboarding_data.dart';
 import 'package:fit_flow/featuers/onboarding/ui/widgets/availability_chip.dart';
 import 'package:fit_flow/featuers/onboarding/ui/widgets/recommendation_card.dart';
