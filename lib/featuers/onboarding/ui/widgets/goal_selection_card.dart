@@ -27,15 +27,12 @@ class GoalSelectionCard extends StatelessWidget {
           color: Colors.white,
           borderRadius: BorderRadius.circular(10),
           border: Border.all(
-            color: isSelected
-                ? AppColors.primary
-                : AppColors.inputBorder,
+            color: isSelected ? AppColors.primary : AppColors.inputBorder,
             width: isSelected ? 1.5 : 1,
           ),
         ),
         child: Row(
           children: [
-            // ── Left accent bar ─────────────────────────────
             if (isSelected)
               Container(
                 width: 4,
@@ -47,7 +44,6 @@ class GoalSelectionCard extends StatelessWidget {
                 ),
               ),
 
-            // ── Icon ────────────────────────────────────────
             Container(
               width: 40,
               height: 40,
@@ -65,7 +61,6 @@ class GoalSelectionCard extends StatelessWidget {
             ),
             const SizedBox(width: 14),
 
-            // ── Text ────────────────────────────────────────
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -80,7 +75,6 @@ class GoalSelectionCard extends StatelessWidget {
               ),
             ),
 
-            // ── Radio indicator ─────────────────────────────
             Container(
               width: 22,
               height: 22,

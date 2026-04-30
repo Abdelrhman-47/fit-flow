@@ -22,13 +22,10 @@ class RecommendationCard extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        border: Border.all(
-          color: AppColors.primary.withValues(alpha: 0.12),
-        ),
+        border: Border.all(color: AppColors.primary.withValues(alpha: 0.12)),
       ),
       child: Row(
         children: [
-          // ── Left content ──────────────────────────────────
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -54,7 +51,6 @@ class RecommendationCard extends StatelessWidget {
             ),
           ),
 
-          // ── Right illustration ────────────────────────────
           Container(
             width: 72,
             height: 72,
